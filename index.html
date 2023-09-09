@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <title>Case Study Between Google Lens and Mobilenet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <center>
+    <div class="container">
+     <h2 id="heading">Case Study Between Google Lens and Mobilenet</h2>
+     <h2>Google Lens <img src="Google-Lens-logo.png" style="width: 100px;"></h2>
+     <h2 class="btn btn-info">Mobile Net</h2>
+     <hr>
+     <ol>
+        <div class="image col-xs-12 btn btn-primary">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="Sony_MDRXB800_Over_The_Head_895337.jpg" class="img-responsive">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>GOOGLE LENS</b> -
+                <span class="text_result">HEADSET</span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>MOBILENET</b> - 
+                <span>HEADSET</span>  
+            </h5>
+
+            <br><br><br><br>
+
+            <div class="result">
+                <h4 id="result_h4">Result - </h4>
+                <hr>
+                <h4>Draw</h4>
+            </div>
+        </div>
+    
+
+    
+        <div class="image col-xs-12 btn btn-primary">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="Bvvvi.jpg" class="img-responsive">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>GOOGLE LENS</b> -
+                <span class="text_result">Bottle</span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>MOBILENET</b> - 
+                <span>Water Bottle</span>  
+            </h5>
+
+            <br><br><br><br>
+
+            <div class="result">
+                <h4 id="result_h4">Result - </h4>
+                <hr>
+                <h4>MOBILENET is more accurate</h4>
+            </div>
+        </div>
+
+        <div class="image col-xs-12 btn btn-primary">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="bluetooth-xbox.jpg" class="img-responsive">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>GOOGLE LENS</b> -
+                <span class="text_result">Controller</span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>MOBILENET</b> - 
+                <span>Controller</span>  
+            </h5>
+
+            <br><br><br><br>
+
+            <div class="result">
+                <h4 id="result_h4">Result - </h4>
+                <hr>
+                <h4>Draw</h4>
+            </div>
+        </div>
+
+        <div class="image col-xs-12 btn btn-primary">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="logitech-g703-lightspeed-wireless-gaming-mouse-black.jpg" class="img-responsive">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>GOOGLE LENS</b> -
+                <span class="text_result">Mouse</span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>MOBILENET</b> - 
+                <span>Mouse</span>
+            </h5>
+
+            <br><br><br><br>
+
+            <div class="result">
+                <h4 id="result_h4">Result - </h4>
+                <hr>
+                <h4>Draw</h4>
+            </div>
+        </div>
+
+        <div class="image col-xs-12 btn btn-primary">
+            <h3>In this case MOBILENET got more accurate results</h3>
+        </div>
+
+      </ol>
+    </div>
+</center>   
+
+</body>
+</html>
